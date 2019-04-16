@@ -1,0 +1,21 @@
+
+{
+  "presets": [
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+      ],
+      "presets": [
+        [
+          "@babel/preset-env",
+          {"targets": {"node": "current"}}
+        ]
+      ]
+    }
+  }
+}
+
